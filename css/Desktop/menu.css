@@ -1,0 +1,76 @@
+header{
+    width: 100%;
+    background-color: var(--mainBgColor);
+}
+header>nav{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    box-sizing: border-box;
+}
+
+header>nav>div.right{
+    width: auto;
+}
+div.wrapper>header>nav>div.right>ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+div.wrapper>header>nav>div.right>ul>li{
+    width: fit-content;
+}
+div.wrapper>header>nav>div.right>ul>li>a{
+    color: white;
+    transition: 500ms;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: iranSans;
+    font-size: 12px;
+    &:hover{
+        color: gold;
+    }
+}
+
+div.left{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+div.left>button{
+    all: unset;
+    width: fit-content;
+    display: block;
+    color: white;
+    font-family: iranSans;
+    padding: 7px 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 500ms;
+}
+div.left>button.sub{
+    background-color: rgb(45, 167, 46);
+    &:hover{
+        background-color: rgb(29, 104, 29);
+    }
+}
+div.left>button.login{
+    background-color: rgb(94, 92, 92);
+    &:hover{
+        background-color: rgb(65, 64, 64);
+    }
+}

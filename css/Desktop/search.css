@@ -1,0 +1,22 @@
+div.container{
+    display: flex;
+    justify-content: space-between;padding: 10px;
+    background-color: black;
+}
+div.container>.special{
+    font-size: 16px;
+    font-family: iranSans;
+    color: white;
+    cursor: pointer;
+}
+div.container>.view-all{
+    font-size: 12px;
+    font-family: iranSans;
+    color: goldenrod;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 500ms;
+    &:hover{
+        color: rgb(175, 124, 14);
+    }
+}

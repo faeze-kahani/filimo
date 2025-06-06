@@ -1,0 +1,162 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "title": "فیلیمو",
+      "href": "#"
+    },
+    {
+      "id": 2,
+      "title": "گنج فیلیمو",
+      "href": "#"
+    },
+    {
+      "id": 3,
+      "title": "فیلیمو مدرسه",
+      "href": "https://www.filimo.school/?utm_source=filimo-web&utm_medium=navigation&utm_campaign=filimo-user&utm_content=home"
+    },
+    {
+      "id": 4,
+      "title": "جستجو",
+      "href": "#"
+    }
+  ],
+  "menuBtns": [
+    {
+      "id":1,
+      "title":"خرید اشتراک"
+    },
+    {
+      "id":2,
+      "title":"ورود"
+    }
+  ],
+  "sliders": [
+    {
+      "id":1,
+      "src":"./images/slider/img1.jpeg",
+      "alt":"fgfdg"
+    },
+    {
+      "id":2,
+      "src":"./images/slider/img2.jpeg",
+      "alt":"hjgyg"
+    },
+    {
+      "id":3,
+      "src":"./images/slider/img3.jpeg",
+      "alt":"hgh"
+    },
+    {
+      "id":4,
+      "src":"./images/slider/img4.jpeg",
+      "alt":"fgd"
+    }
+  ],
+  "choiseBtn":[
+    {
+      "id":1,
+      "option1":"فیلم و سریال",
+      "option2":"همه",
+      "option3":"فیلم",
+      "option4":"سریال"
+    },
+    {
+      "id":2,
+      "option1":"ژانر",
+      "option2":"همه",
+      "option3":"کمدی",
+      "option4":"تاک شو"
+    },
+    {
+      "id":3,
+      "option1":"کشور",
+      "option2":"همه",
+      "option3":"هند",
+      "option4":"ایران"
+        },
+        {
+          "id":4,
+          "option1":"زبان",
+          "option2":"همه",
+          "option3":"فارسی(دوبله)",
+          "option4":"زبان اصلی(زیر نویس)"
+        },
+        {
+          "id":5,
+          "option1":"سن",
+          "option2":"همه",
+          "option3":"زیر 3سال",
+          "option4":"تا 6سال"
+        },
+        {
+          "id":6,
+          "title":"اعمال فیلتر"
+        }
+
+  ],
+  "entekhab":[
+    {
+      "id":1,
+      "title":"ویژه"
+    }
+  ],
+  "View":[
+    {
+      "id":1,
+      "title":"مشاهده همه"
+    }
+  ],
+  "gallery":[
+    {
+      "id":1,
+      "src":"./images/gallery/1.webp",
+      "alt":"fg"
+    },
+    {
+      "id":2,
+      "src":"./images/gallery/2.webp",
+      "alt":"jhg"
+    },
+    {
+      "id":3,
+      "src":"./images/gallery/3.webp",
+      "alt":"jhsd"
+    },
+    {
+      "id":4,
+      "src":"./images/gallery/4.webp",
+      "alt":"fda"
+    },
+    {
+      "id":5,
+      "src":"./images/gallery/5.webp",
+      "alt":"jhf"
+    },
+    {
+      "id":6,
+      "src":"./images/gallery/6.webp",
+      "alt":"ada"
+    },
+    {
+      "id":7,
+      "src":"./images/gallery/7.webp",
+      "alt":"saf"
+    },
+    {
+      "id":8,
+      "src":"./images/gallery/8.webp",
+      "alt":"jsdhf"
+    },
+    {
+      "id":9,
+      "src":"./images/gallery/9.webp",
+      "alt":"swe"
+    },
+    {
+      "id":10,
+      "src":"./images/gallery/10.webp",
+      "alt":"ium"
+    }
+  ]
+}

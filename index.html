@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--فهرست-->
+      <header>
+        <nav>
+          <div class="right" id="rightMenu">
+            <ul></ul>
+          </div>
+          <div class="left" id="leftMenu"></div>
+        </nav>
+      </header>
+      <div class="slider">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper" id="slider">
+          </div>
+        </div>
+        <div class="cover"></div>
+      </div>
+    </div>
+    </div>
+    <div class="container"><!--تیتر انتخاب عکس-->
+      <div class="special" id="rightSearch">ویژه</div>
+      <div class="view-all" id="leftSearch">مشاهده همه</div>
+    </div>
+    <div class="gallerys" id="gallerys">
+      <img src="./images/gallery/1.webp" alt="img1">
+      <img src="./images/gallery/2.webp" alt="img2">
+      <img src="./images/gallery/3.webp" alt="img3">
+      <img src="./images/gallery/4.webp" alt="img4">
+      <img src="./images/gallery/5.webp" alt="img5">
+      <img src="./images/gallery/6.webp" alt="img6">
+      <img src="./images/gallery/7.webp" alt="img7">
+      <img src="./images/gallery/8.webp" alt="img8">
+      <img src="./images/gallery/9.webp" alt="img9">
+      <img src="./images/gallery/10.webp" alt="img10">
+    </div>
+
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/main.js" type="module"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
